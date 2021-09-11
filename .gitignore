@@ -1,3 +1,6 @@
+# Just so I don't push my CV lol
+BenCV.docx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -24,6 +27,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.idea
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
