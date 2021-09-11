@@ -1,2 +1,2 @@
-# docx-word-replacer
- Program that takes a string, searches for a match in a docx document and replaces with another given string.
+# cover-letter-editor
+ Small script for me to use to quickly make edits to my cover letters when they are closely related jobs.
