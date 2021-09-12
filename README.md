@@ -1,2 +1,9 @@
-# docx-word-replacer
- Program that takes a string, searches for a match in a docx document and replaces with another given string.
+# cover-letter-editor
+ Small script for me to use to quickly make edits to my cover letters when they are closely related jobs.
+ 
+# Run
+
+1. Install python-docx inside your Python env.
+2. Clone the repo and drop your cover letter inside the same folder as the script.
+3. Add the strings "jobtitle" and "companyname" into your cover letter document where you want them to be replaced.
+4. Run, and follow the instructions displayed by the terminal.
