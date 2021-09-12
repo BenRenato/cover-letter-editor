@@ -1,5 +1,6 @@
 # cover-letter-editor
  Small script for me to use to quickly make edits to my cover letters when they are closely related jobs.
+ Converts to a pdf file after, on Windows it dumps to documents folder. Not tested on mac.
  
 # Requirements
 
