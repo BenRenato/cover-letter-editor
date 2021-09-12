@@ -1,6 +1,11 @@
 # cover-letter-editor
  Small script for me to use to quickly make edits to my cover letters when they are closely related jobs.
  
+# Requirements
+
+- python-docx
+- docx2pdf
+
 # Run
 
 1. Install python-docx inside your Python env.
