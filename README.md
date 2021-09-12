@@ -9,7 +9,7 @@
 
 # Run
 
-1. Install python-docx inside your Python env.
+1. Install the requirements.txt file using "pip -r install requirements.txt".
 2. Clone the repo and drop your cover letter inside the same folder as the script.
 3. Add the strings "jobtitle" and "companyname" into your cover letter document where you want them to be replaced.
 4. Run, and follow the instructions displayed by the terminal.
