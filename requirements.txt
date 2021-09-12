@@ -1,0 +1,6 @@
+# pip install -r requirements.txt
+
+# Requirements
+
+docx2pdf
+python-docx
