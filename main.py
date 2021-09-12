@@ -1,12 +1,13 @@
 import pathlib
 from docx import Document
 from docx.shared import Pt
-
+from docx2pdf import convert
 
 def main():
     print("This program currently only works with .docx files. If you have a Word compatibility file \n"
           "please save it as a .docx file instead.\n")
 
+    name = str(input("What's your name? "))
     # Get the current working directory
     current_dir = str(pathlib.Path(__file__).parent.resolve())
 
@@ -32,7 +33,10 @@ def main():
     replace_text("thecompany", company_name, document, style)
 
     # Save the document
-    document.save('Ben Gomez Cover Letter ' + company_name + '.docx')
+    document.save(name + 'Cover Letter ' + company_name + '.docx')
+    # Convert to PDF
+    convert(name + 'Cover Letter ' + company_name + '.docx', name + ' Cover Letter ' + company_name + '.pdf')
+    print("\nPDF version dumped to Documents folder.")
 
 
 def get_job_title_and_company_name():
@@ -75,6 +79,7 @@ def open_document(path_to_file):
     print("Successfully opened document.")
 
     return document
+
 
 # Ask for file name and return correct file path
 def get_target_document_path(current_dir):
